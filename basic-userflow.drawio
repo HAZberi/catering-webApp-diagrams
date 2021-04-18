@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T08:40:28.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="0rV9JZxCjxJg2zVfvlM7" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T10:33:37.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="OKpqFEGwtQNfs-Qu-_VL" version="14.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="757" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -347,6 +347,9 @@
         <mxCell id="ng4lnUKTJqoICK68N6fb-19" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Confirm&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1910" y="1780" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-20" target="ng4lnUKTJqoICK68N6fb-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ng4lnUKTJqoICK68N6fb-20" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Payment Checkout Loads (Stripe Interface)&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;A form to get payment information&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1364" y="2270" width="428" height="90" as="geometry" />
         </mxCell>
@@ -370,6 +373,108 @@
         </mxCell>
         <mxCell id="ng4lnUKTJqoICK68N6fb-26" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Confirm&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1590" y="2190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-27" target="ng4lnUKTJqoICK68N6fb-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-27" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Stripe Form with Validation&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;User enters payment information&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1428" y="2440" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-30" target="ng4lnUKTJqoICK68N6fb-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-30" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Payment Processing Loading Screen&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;User sees a loading while the payment gets processed&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1364" y="2610" width="428" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-32" target="ng4lnUKTJqoICK68N6fb-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-32" target="ng4lnUKTJqoICK68N6fb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-32" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Payment Processing Outcome&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Based on outcome user will be directed automatically&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1278" y="2790" width="600" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-34" target="ng4lnUKTJqoICK68N6fb-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="871" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-34" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Payment Declined Dialog with Instructions to Proceed&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Pops up a dialog box indicating payment declined&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="657" y="2830" width="428" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-36" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Payment Declined&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1178" y="2850" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-38" target="ng4lnUKTJqoICK68N6fb-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-38" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Order Receipt&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Order Number, Order Details and Charges, Pickup/Delivery Appointment&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1307" y="3110" width="542" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-40" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Payment Successful&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1590" y="2960" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-41" target="ng4lnUKTJqoICK68N6fb-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="3020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-41" target="ng4lnUKTJqoICK68N6fb-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="951" y="3255" />
+              <mxPoint x="1578" y="3255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-41" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Order Receipt gets emailed to the User (via Zapier)&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;User receives the Order Receipt on the provided email&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="3110" width="422" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-42" target="ng4lnUKTJqoICK68N6fb-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="3040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ng4lnUKTJqoICK68N6fb-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="3280" as="targetPoint" />
+            <mxPoint x="1578" y="3270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-42" value="&lt;font style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; font-size: 14px&quot;&gt;Order Receipt gets emailed to the Client (via Zapier)&lt;br&gt;&lt;/font&gt;&lt;hr style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; font-size: 14px&quot;&gt;&lt;font style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; font-size: 14px&quot;&gt;Client receives the Order Receipt&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2000" y="3110" width="372" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-45" target="pszC3b5Wna7HMnzYmOuA-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="-220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="3345" />
+              <mxPoint x="40" y="-225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-45" target="ng4lnUKTJqoICK68N6fb-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-45" value="&lt;font style=&quot;font-size: 14px&quot;&gt;End of Application&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1522.8300000000002" y="3310" width="110.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng4lnUKTJqoICK68N6fb-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1578" y="3240" as="targetPoint" />
+            <mxPoint x="2186" y="3200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2186" y="3255" />
+              <mxPoint x="1578" y="3255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-52" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;On Dismiss&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1452.5" y="3320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ng4lnUKTJqoICK68N6fb-53" value="&lt;br&gt;Order Details gets Stored in Database&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1772" y="3302.5" width="260" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
