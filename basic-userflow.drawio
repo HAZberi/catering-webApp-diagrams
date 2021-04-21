@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T09:06:54.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="hxAZbFsOFk5ZRtGkOrKe" version="14.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T09:58:39.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="923osyJfdwCDg3Rqs8jL" version="14.6.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Basic User Flow">
     <mxGraphModel dx="946" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,7 +495,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HbO5QdYepmG6fzyAZENg" name="Authentication Flow">
-    <mxGraphModel dx="3496" dy="2846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3496" dy="2794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mZ7B92XBFwDs75mrRiuE-0" />
         <mxCell id="mZ7B92XBFwDs75mrRiuE-1" parent="mZ7B92XBFwDs75mrRiuE-0" />
@@ -743,6 +743,24 @@
         </mxCell>
         <mxCell id="e86ZL8LUYw2XmelDkOqa-0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Clickable Avatar&lt;hr&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;User clicks the avatar to access Signed Up functionality&lt;/span&gt;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
           <mxGeometry x="1460" y="-410" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e86ZL8LUYw2XmelDkOqa-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Access to user Profile Settings&amp;nbsp;&lt;br&gt;&lt;hr&gt;A menu item to access and edit profile settings&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1850" y="-230" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e86ZL8LUYw2XmelDkOqa-3" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Access to user Order History&amp;nbsp;&lt;br&gt;&lt;hr&gt;A menu item to access Order History&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1850" y="-20" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e86ZL8LUYw2XmelDkOqa-4" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Access to user Deliveries&lt;br&gt;&lt;hr&gt;A menu item to access Delivery Status and History&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1850" y="190" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e86ZL8LUYw2XmelDkOqa-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Contact Us Page&lt;br&gt;&lt;hr&gt;A menu item to access contact us form and other information&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1785" y="390" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e86ZL8LUYw2XmelDkOqa-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Chat with Us&lt;br&gt;&lt;hr&gt;A menu item to access a chat interface&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1850" y="590" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e86ZL8LUYw2XmelDkOqa-7" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Sign Out&lt;br&gt;&lt;hr&gt;A menu item to sign out from the current session&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1850" y="800" width="440" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
