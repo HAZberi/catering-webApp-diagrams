@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T10:31:51.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="bhc6KwABZRMIxK-r3WVV" version="14.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T11:20:48.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="OjWW3qg3qYtQ9ndlDUD0" version="14.6.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Basic User Flow">
-    <mxGraphModel dx="946" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5592" dy="3681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -495,7 +495,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HbO5QdYepmG6fzyAZENg" name="Authentication Flow">
-    <mxGraphModel dx="8142" dy="4712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3948" dy="2880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mZ7B92XBFwDs75mrRiuE-0" />
         <mxCell id="mZ7B92XBFwDs75mrRiuE-1" parent="mZ7B92XBFwDs75mrRiuE-0" />
@@ -777,8 +777,30 @@
         <mxCell id="e86ZL8LUYw2XmelDkOqa-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Chat with Us&lt;br&gt;&lt;hr&gt;A menu item to access a chat interface&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
           <mxGeometry x="5420" y="-120" width="440" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="byyPqTbOf4KEzIRS5g33-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="e86ZL8LUYw2XmelDkOqa-7" target="byyPqTbOf4KEzIRS5g33-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="e86ZL8LUYw2XmelDkOqa-7" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Sign Out&lt;br&gt;&lt;hr&gt;A menu item to sign out from the current session&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
           <mxGeometry x="1240" y="-120" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="byyPqTbOf4KEzIRS5g33-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="byyPqTbOf4KEzIRS5g33-0" target="byyPqTbOf4KEzIRS5g33-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="byyPqTbOf4KEzIRS5g33-0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Sign Out Item Button&lt;hr&gt;User clicks to sign out from current session&lt;br&gt;&lt;/font&gt;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1275" y="80" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="byyPqTbOf4KEzIRS5g33-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="byyPqTbOf4KEzIRS5g33-2" target="z_cb9KaS6e90cgnjmIVu-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="-280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="1640" />
+              <mxPoint x="-1920" y="1640" />
+              <mxPoint x="-1920" y="-355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byyPqTbOf4KEzIRS5g33-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Log out the user and Restore Applications Initial State&lt;br&gt;&lt;hr&gt;Application returns to its initial state&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="1240" y="270" width="440" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
