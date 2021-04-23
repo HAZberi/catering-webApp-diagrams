@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T14:04:44.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="FzLVdLTup_Qel-9xEXLO" version="14.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-23T19:18:15.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="uqG2FlHyMSIGJ_gAEc9j" version="14.6.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Basic User Flow">
     <mxGraphModel dx="838" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -780,8 +780,14 @@
         <mxCell id="e86ZL8LUYw2XmelDkOqa-4" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Access to user Deliveries&lt;br&gt;&lt;hr&gt;A menu item to access Delivery Status and History&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="mZ7B92XBFwDs75mrRiuE-1" vertex="1">
           <mxGeometry x="3670" y="-120" width="440" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="e86ZL8LUYw2XmelDkOqa-5" target="s_0t6piu_NJcIu0_Ttol-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="e86ZL8LUYw2XmelDkOqa-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Contact Us Page&lt;br&gt;&lt;hr&gt;A menu item to access contact us form and other information&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="mZ7B92XBFwDs75mrRiuE-1" vertex="1">
           <mxGeometry x="4480" y="-120" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="e86ZL8LUYw2XmelDkOqa-6" target="s_0t6piu_NJcIu0_Ttol-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e86ZL8LUYw2XmelDkOqa-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Chat with Us&lt;br&gt;&lt;hr&gt;A menu item to access a chat interface&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="mZ7B92XBFwDs75mrRiuE-1" vertex="1">
           <mxGeometry x="5420" y="-120" width="440" height="120" as="geometry" />
@@ -974,6 +980,36 @@
         </mxCell>
         <mxCell id="s_0t6piu_NJcIu0_Ttol-32" value="&lt;font style=&quot;font-size: 14px&quot;&gt;End of Application&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
           <mxGeometry x="3810.84" y="940" width="158.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="s_0t6piu_NJcIu0_Ttol-34" target="s_0t6piu_NJcIu0_Ttol-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-34" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Contact Us Button&lt;hr&gt;User clicks to get in contact with the client&lt;br&gt;&lt;/font&gt;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="4583.75" y="80" width="362.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="s_0t6piu_NJcIu0_Ttol-36" target="s_0t6piu_NJcIu0_Ttol-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-36" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Client&#39;s contact information and a form to trigger and email message&lt;br&gt;&lt;hr&gt;User can see the client&#39;s contact information and a Form&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="4491.26" y="270" width="547.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="s_0t6piu_NJcIu0_Ttol-38" target="s_0t6piu_NJcIu0_Ttol-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-38" value="&lt;font style=&quot;font-size: 14px&quot;&gt;A form to send an email message&lt;br&gt;&lt;hr&gt;User inputs the message and submits&lt;br&gt;&lt;/font&gt;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="4609.06" y="480" width="311.87" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mZ7B92XBFwDs75mrRiuE-1" source="s_0t6piu_NJcIu0_Ttol-40" target="s_0t6piu_NJcIu0_Ttol-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-40" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Message gets emailed to the Client&lt;br&gt;&lt;hr&gt;User gets notified whether the message sent is successful or not&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="4491.26" y="670" width="547.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-42" value="&lt;font style=&quot;font-size: 14px&quot;&gt;End of Application&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="4685.85" y="880" width="158.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s_0t6piu_NJcIu0_Ttol-44" value="Feature to be implemented at a later stage" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="mZ7B92XBFwDs75mrRiuE-1">
+          <mxGeometry x="5505" y="70" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
