@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T14:45:15.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="F_l7N66zLtK60e4y8WM_" type="github"><diagram id="1UZXJah7Nus48Wz_6rOb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-31T00:57:40.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dpdnjMjQ0wbThe95SRJq" version="20.5.1" type="github">
+  <diagram id="1UZXJah7Nus48Wz_6rOb" name="Page-1">
+    <mxGraphModel dx="1313" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Tz9ZIzHWi9LlfEscKEwl-1" target="Tz9ZIzHWi9LlfEscKEwl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Incoming Data&lt;br&gt;3000 sentences&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Tz9ZIzHWi9LlfEscKEwl-2" target="Tz9ZIzHWi9LlfEscKEwl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Preprocessing&lt;br&gt;Data Cleaning and building Vocabulary Dictionary&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Tz9ZIzHWi9LlfEscKEwl-4" target="Tz9ZIzHWi9LlfEscKEwl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Feature Extraction&lt;br&gt;Using a frequency dictionary&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Tz9ZIzHWi9LlfEscKEwl-6" target="Tz9ZIzHWi9LlfEscKEwl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Training the Model&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Lato, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;Feature matrix to train the Logistic Regression model&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="440" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Tz9ZIzHWi9LlfEscKEwl-8" target="Tz9ZIzHWi9LlfEscKEwl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Tz9ZIzHWi9LlfEscKEwl-8" target="Tz9ZIzHWi9LlfEscKEwl-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="590" />
+              <mxPoint x="250" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Evaluation of the model&lt;br&gt;using labeled data&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="560" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tz9ZIzHWi9LlfEscKEwl-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Prediction &lt;br&gt;Testing the model using un-labeled data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
